@@ -1,6 +1,6 @@
 # robot-twitter-talker
 
-Hi! This is a chatbot integrated with twitter and a sentiment analysis. The project is build on a microservices architecture that is distributed in 3 bases. 
+Hi! This is a chatbot integrated with twitter and a sentiment analysis. The project is build on a microservices architecture distributed in 3 bases. 
 - The first one is the 'Chato' wich is the bot, created with the rivescript API (https://www.rivescript.com/about) so we can say that the 'Chato' is the brain of our aplication.
 - The other one is the 'Sentimenter' wich is our sentiment analyst, so it may be... the heart?
 - The last one is the 'Writer' that is the integration that we have to the twitter API. So it is our tongue or arms? idk u decide. 
