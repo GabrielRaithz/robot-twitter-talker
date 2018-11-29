@@ -31,7 +31,7 @@ As mentioned before this is a microservices application that runs in 3 separated
 
 ## the INIT(Finally)
 
-first, to consume the twitter api we should first get the token and key, you can create yours following this guide (https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html).
+To consume the twitter api we should first get the token and key, you can create yours following this guide (https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html).
 
 _And the application runs with **Node.js** so you should have this installed._
 
