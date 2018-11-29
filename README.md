@@ -31,7 +31,7 @@ As mentioned before this is a microservices application that runs in 3 separated
 
 ## the INIT(Finally)
 
-To consume the twitter api we should first get the token and key, you can create yours following this guide (https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html).
+To consume the twitter api we should first get the token and key, you can create yours following this guide (https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html). and put the information in the config.js file
 
 _And the application runs with **Node.js** so you should have this installed._
 
@@ -48,7 +48,7 @@ _run the it in different prompts _
 
 the listener is our "main" so you sould run this too 
 - _node listener.js_
-but as a huge consequence of the microservice architecture you can buld it in any language and any plataform just consuming the same requisitions.
+but as a consequence of the microservice architecture you can buld it in any language and any plataform just consuming the same requisitions.
 
 _This is a very embryonic project that I built (and am building) just to fun and of course for learning, but please, feel free to play with all this._
 
