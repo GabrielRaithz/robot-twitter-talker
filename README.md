@@ -5,7 +5,7 @@ Hi! This is a chatbot integrated with twitter and a sentiment analysis. The proj
 - The other one is the 'Sentimenter' wich is our sentiment analyst, so it may be... the heart?
 - The last one is the 'Writer' that is the integration that we have to the twitter API. So it is our tongue or arms? idk u decide. 
 
-As mentioned before this is a microservices application that runs in 3 separated REST services as everything in life there are earnings and losses as we can see below:
+As mentioned before this is a microservices application that runs in 3 separated REST services, as everything in life there are earnings and losses as we can see below:
 
 **Benefits**
 - Enables the continuous delivery and deployment of large, complex applications.
