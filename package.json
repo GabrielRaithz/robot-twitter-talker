@@ -1,0 +1,22 @@
+{
+  "name": "robot-twitter-speaker",
+  "version": "1.0.0",
+  "description": "a very boring (chato) bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node chato.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gabriel raithz",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "express": "^4.16.4",
+    "printf": "^0.5.1",
+    "request": "^2.88.0",
+    "rivescript": "^2.0.0-alpha.6",
+    "twit": "^2.2.11",
+    "webpack": "^4.25.1"
+  },
+  "devDependencies": {}
+}
