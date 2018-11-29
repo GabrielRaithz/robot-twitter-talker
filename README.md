@@ -28,6 +28,7 @@ As mentioned before this is a microservices application that runs in 3 separated
 - Implementing use cases that span multiple services requires careful coordination between the teams
 - Deployment complexity. In production, there is also the operational complexity of deploying and managing a system comprised of many different service types.
 - Increased memory consumption. The microservice architecture replaces N monolithic application instances with NxM services instances. If each service runs in its own JVM (or equivalent), which is usually necessary to isolate the instances, then there is the overhead of M times as many JVM runtimes. Moreover, if each service runs on its own VM (e.g. EC2 instance), as is the case at Netflix, the overhead is even higher.
+_Font:https://microservices.io/patterns/microservices.html_ 
 
 ## the INIT(Finally)
 
