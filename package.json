@@ -18,5 +18,19 @@
     "twit": "^2.2.11",
     "webpack": "^4.25.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielRaithz/robot-twitter-talker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GabrielRaithz/robot-twitter-talker/issues"
+  },
+  "homepage": "https://github.com/GabrielRaithz/robot-twitter-talker#readme",
+  "keywords": [
+    "chatbot;",
+    "twitter;",
+    "sentiment",
+    "analysis"
+  ]
 }
