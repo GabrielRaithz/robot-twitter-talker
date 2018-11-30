@@ -29,4 +29,9 @@ app.get("/tweetIt/:text/:from", function (request_, response) {
     tweetIt(request_.params.text, request_.params.from);
 })
 
-app.listen(8082);
+try{
+	app.listen(8082);
+	console.log('Writer up Sir!');
+}catch(err){
+	err.toString()
+}

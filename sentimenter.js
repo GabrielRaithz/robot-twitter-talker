@@ -11,17 +11,19 @@ function sentimentReader(text) {
     var keys = 0;
 
     for(let i = 0; i < words.length; i++){
-        var word = words[i].toLowerCase();
+        var word = words[i].toLowerCase().toString();
+		console.log(word);
+		if(word == "not" || word == "no"|| word == "don" || word == "doesn") {
+            keys ++;
+        }
         if(afinn.hasOwnProperty(word)){
             let score = afinn[word];
             totalscore += Number(score);
-            if(word == "not" || word.toString() == "no") {
-                keys ++;
-            }
             scoredwords.push(word + ': ' + score);
         }
     }
 
+	console.log("keys score = " + keys);
     for(let i = 0; i < keys; i++){
         totalscore = (totalscore * -1);
     }
@@ -35,4 +37,9 @@ app.get("/readSentiment/:text", function (request, response) {
     response.send(sent.toString());
 });
 
-app.listen(8081);
+try{
+	app.listen(8081);
+	console.log('sentimenter here ^_^ a');
+}catch(err){
+	err.toString()
+}
