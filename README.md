@@ -52,7 +52,7 @@ the listener is our "main" so you sould run this too
 but as a consequence of the microservice architecture you can build it in any language and any plataform just consuming the same requisitions.
 
 the result will be something like this: 
-![alt text] (https://raw.githubusercontent.com/GabrielRaithz/robot-twitter-talker/master/img/4699.jpg)
+![alt text] (https://raw.githubusercontent.com/GabrielRaithz/robot-twitter-talker/master/img/4699.jpg?raw=true "Title")
 
 _This is a very embryonic project that I built (and am building) just to fun and of course for learning, but please, feel free to play with all of this._
 
