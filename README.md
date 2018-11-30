@@ -48,7 +48,7 @@ Then voilà! the application is ready! easy isn't is? And now just run the follo
 _run the it in different prompts _
 
 the listener is our "main" so you sould run this too 
-- _ node listener.js _
+- node listener.js
 As a consequence of the microservice architecture you can build it in any language and any plataform just consuming the same requisitions.
 
 the result will be something like this: 
