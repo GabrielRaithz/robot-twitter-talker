@@ -39,7 +39,7 @@ app.get("/readSentiment/:text", function (request, response) {
 
 try{
 	app.listen(8081);
-	console.log('sentimenter here ^_^ a');
+	console.log('sentimenter here ^_^');
 }catch(err){
 	err.toString()
 }
